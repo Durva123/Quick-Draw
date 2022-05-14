@@ -1,0 +1,65 @@
+body{
+    background-color:rgb(119, 184, 251);
+}
+.head{
+    color:black;
+    font-family:Stencil;
+    background-color:rgb(208, 230, 255);
+    padding-left:250px;
+}
+
+.click{
+    float:right;
+    background-color:rgb(208, 230, 255);
+    font-size:30px;
+}
+
+.note{
+    width:100%;
+    background-color: white;
+    color:black;
+    font-family:Papyrus;
+    font-weight:bold;
+    margin-top:5px;
+    margin-right:5px;
+}
+
+.close{
+    margin-right:15px;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.clear{
+    font-family:Stencil;
+    background-color:rgb(208, 230, 255);
+    border-style:solid;
+    border-color:black;
+}
+
+.point{
+color:black;
+font-family:'Times New Roman', Times, serif;
+font-size:25px;
+}
+
+.sight{
+color:black;
+font-size:25px;
+font-family:'Times New Roman', Times, serif;
+}
+
+canvas{
+    border: 5px solid rgb(208, 230, 255);
+    border-radius:35px;
+    animation-name:Durva;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    background:#ffffff;
+}
+
+@keyframes Durva{
+    from{box-shadow:1px 1px 30px rgb(88, 87, 87);}
+    to{box-shadow:1px 1px 30px black;}
+}
+
